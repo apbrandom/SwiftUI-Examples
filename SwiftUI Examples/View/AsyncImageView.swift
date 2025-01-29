@@ -37,7 +37,9 @@ struct AsyncImageView: View {
             case .success(let image):
                 // Показываем загруженное изображение
                 image.imageModifier()
-                    .transition(.move(edge: .bottom))
+//                    .transition(.move(edge: .bottom))
+//                    .transition(.slide)
+                    .transition(.scale)
             case .failure:
                 // Показываем сообщение об ошибке
                 Image(systemName: "xmark.circle").iconModifier()
