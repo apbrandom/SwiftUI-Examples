@@ -34,9 +34,18 @@ struct ContentView: View {
                     }
                 }
             }
+            NavigationLink(destination: AsyncImageView()) {
+                Text("Async Image Views")
+                    .padding()
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+                    .shadow(radius: 8)
+            }
         } detail: {
             Text("Select an item")
         }
+
     }
 
     private func addItem() {
