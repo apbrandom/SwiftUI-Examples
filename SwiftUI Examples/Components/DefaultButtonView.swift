@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct DefaultButtonView: View {
+    var title: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(title)
+            .padding()
+            .background(.blue)
+            .foregroundColor(.white)
+            .cornerRadius(8)
+            .shadow(radius: 8)
     }
 }
 
 #Preview {
-    DefaultButtonView()
+    DefaultButtonView(title: "Default Button")
 }

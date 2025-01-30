@@ -9,9 +9,7 @@ import SwiftUI
 
 struct HikeView: View {
     var body: some View {
-            Image("Images/image-1")
-                .resizable()
-                .scaledToFit()
+        CardView()
     }
 }
 

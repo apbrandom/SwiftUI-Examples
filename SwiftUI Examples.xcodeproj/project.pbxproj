@@ -37,6 +37,36 @@
 			);
 			target = CBE1B87E2D4A384300E84BDD /* SwiftUI Examples */;
 		};
+		CBE1B8C42D4A39DA00E84BDD /* Exceptions for "SwiftUI Examples" folder in "SwiftUI ExamplesTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Components/CardView.swift,
+				Components/CustomBackgroundView.swift,
+				Components/CustomButtonView.swift,
+				Components/DefaultButtonView.swift,
+				Utilitiy/ColorExtension.swift,
+				Utilitiy/GradientButtonStyle.swift,
+				View/AsyncImageView.swift,
+				View/HikeView.swift,
+				View/MainView.swift,
+			);
+			target = CBE1B8922D4A384500E84BDD /* SwiftUI ExamplesTests */;
+		};
+		CBE1B8C52D4A39DA00E84BDD /* Exceptions for "SwiftUI Examples" folder in "SwiftUI ExamplesUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Components/CardView.swift,
+				Components/CustomBackgroundView.swift,
+				Components/CustomButtonView.swift,
+				Components/DefaultButtonView.swift,
+				Utilitiy/ColorExtension.swift,
+				Utilitiy/GradientButtonStyle.swift,
+				View/AsyncImageView.swift,
+				View/HikeView.swift,
+				View/MainView.swift,
+			);
+			target = CBE1B89C2D4A384500E84BDD /* SwiftUI ExamplesUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +74,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				CBE1B8A52D4A384500E84BDD /* Exceptions for "SwiftUI Examples" folder in "SwiftUI Examples" target */,
+				CBE1B8C42D4A39DA00E84BDD /* Exceptions for "SwiftUI Examples" folder in "SwiftUI ExamplesTests" target */,
+				CBE1B8C52D4A39DA00E84BDD /* Exceptions for "SwiftUI Examples" folder in "SwiftUI ExamplesUITests" target */,
 			);
 			path = "SwiftUI Examples";
 			sourceTree = "<group>";
