@@ -60,6 +60,29 @@ struct SettingView: View {
             
             //MARK: - SECTION ABOUT
             
+            Section(
+                header: Text("About the APP"),
+                footer: HStack {
+                    Spacer()
+                    Text("Copyright © All right reserved")
+                    Spacer()
+                }
+                    .padding(.vertical, 8)
+            ) {
+                // 1. Basic labeled Content
+                // LabeledContent("Aplication", value: "Hike")
+                
+                // 2. Advanced Labled Content
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTinColor: .blue)
+                CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTinColor: .red)
+                CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTinColor: .orange)
+                CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTinColor: .purple)
+                CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Vadim Vinogradov", rowTinColor: .mint)
+                CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Robert Petras", rowTinColor: .pink)
+                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTinColor: .indigo, rowLinkLabel: "Google", rowLinkDestination: "https://www.google.com")
+                
+            } //:SECTION
+            
         } //: LIST
     }
 }

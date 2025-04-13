@@ -44,14 +44,15 @@
 				Components/CustomBackgroundView.swift,
 				Components/CustomButtonView.swift,
 				Components/CustomCircleView.swift,
+				Components/CustomListRowView.swift,
 				Components/DefaultButtonView.swift,
 				Components/MotionAnimationView.swift,
 				Utilitiy/ColorExtension.swift,
 				Utilitiy/GradientButtonStyle.swift,
 				View/AsyncImageView.swift,
-				View/HikeView.swift,
 				View/MainView.swift,
-				View/SettingView.swift,
+				View/Screen/HikeView.swift,
+				View/Screen/SettingView.swift,
 			);
 			target = CBE1B8922D4A384500E84BDD /* SwiftUI ExamplesTests */;
 		};
@@ -62,14 +63,15 @@
 				Components/CustomBackgroundView.swift,
 				Components/CustomButtonView.swift,
 				Components/CustomCircleView.swift,
+				Components/CustomListRowView.swift,
 				Components/DefaultButtonView.swift,
 				Components/MotionAnimationView.swift,
 				Utilitiy/ColorExtension.swift,
 				Utilitiy/GradientButtonStyle.swift,
 				View/AsyncImageView.swift,
-				View/HikeView.swift,
 				View/MainView.swift,
-				View/SettingView.swift,
+				View/Screen/HikeView.swift,
+				View/Screen/SettingView.swift,
 			);
 			target = CBE1B89C2D4A384500E84BDD /* SwiftUI ExamplesUITests */;
 		};
